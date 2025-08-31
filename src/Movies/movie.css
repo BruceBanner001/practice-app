@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    background-color: rgb(229, 234, 238);
+}
+li{
+    list-style-type: none;
+}
+.movie-container{
+    text-align: center;
+}
+.movie-list{
+    display: flex;
+    justify-content: space-around;
+}
+.movie{
+    font-weight: bold;
+    border: 2px solid grey;
+    width: 300px;
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
+.movie p span{
+    font-weight: 400;
+}
+
+.movie ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie ul span{
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.movie ul li{
+    font-weight: 400;
+    border: 1px solid red;
+    border-radius: 0.3rem;
+    color: rgb(238, 15, 15);
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
