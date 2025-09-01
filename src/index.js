@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Movies from './Movies/MoviesContainer';
+// import Movies from './Movies/MoviesContainer';
+import Colorizer from './ColorizeUsingUseState/Colorizer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Movies />
+    {/* <Movies /> */}
+    <Colorizer />
   </React.StrictMode>
 );
 
